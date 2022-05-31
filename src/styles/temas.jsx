@@ -4,6 +4,7 @@ import {
   insidePadrao,
   textoLightPadrao,
   textoPadrao,
+  vermelho,
 } from "./variaveis";
 
 export const temaPadrao = {
@@ -12,4 +13,5 @@ export const temaPadrao = {
   borda: bordaPadrao,
   texto: textoPadrao,
   textoSecundario: textoLightPadrao,
+  botao: vermelho,
 };

@@ -1,7 +1,9 @@
 import React from "react";
 import useDrag from "./useDrag";
 import { Draggable, InnerDraggable } from "./ComponentDraggableStyled";
+import { MdOutlineFullscreenExit, MdOutlineFullscreen } from "react-icons/md";
 import { useState } from "react";
+import { Button } from "../button/Button";
 
 const { innerHeight, innerWidth } = window;
 const startingPosition = { x: innerWidth - 250, y: innerHeight / 2 - 100 };
@@ -19,9 +21,11 @@ const ComponentDraggable = ({ component }) => {
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseMove}
         onMouseUp={handleMouseUp}
-        onDoubleClick={() => SetIsOpen(!isOpen)}
       >
-        {isOpen ? component : "Clique aqui"}
+        <Button onDoubleClick={() => SetIsOpen(!isOpen)}>
+          {isOpen ? <MdOutlineFullscreen /> : <MdOutlineFullscreenExit />}
+        </Button>
+        {isOpen ? component.open : component.close}
       </InnerDraggable>
     </Draggable>
   );

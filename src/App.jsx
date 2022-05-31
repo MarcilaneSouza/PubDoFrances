@@ -9,7 +9,9 @@ function App() {
     <ThemeProvider theme={temaPadrao}>
       <GlobalStyle />
       <CardHelloWorld />
-      <ComponentDraggable component={<Teste />} />
+      <ComponentDraggable
+        component={{ open: <Teste />, close: "clique duas vezes aqui" }}
+      />
     </ThemeProvider>
   );
 }

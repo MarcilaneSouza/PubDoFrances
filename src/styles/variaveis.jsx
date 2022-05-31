@@ -3,3 +3,4 @@ export const bordaPadrao = "#393C49";
 export const bodyPadrao = "#2D303E";
 export const textoPadrao = "#FFFFFF";
 export const textoLightPadrao = "#E0E6E9";
+export const vermelho = "#EA7C69";
