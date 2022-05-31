@@ -18,4 +18,5 @@ export const InnerDraggable = styled.div.attrs(({ settings, theme }) => ({
   font-size: 5rem;
   transition: all -1s;
   cursor: -webkit-grab;
+  user-select: none;
 `;

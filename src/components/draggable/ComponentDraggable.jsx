@@ -1,18 +1,16 @@
 import React from "react";
 import useDrag from "./useDrag";
 import { Draggable, InnerDraggable } from "./ComponentDraggableStyled";
+import { useState } from "react";
 
 const { innerHeight, innerWidth } = window;
-const startingPosition = { x: innerWidth / 2 - 100, y: innerHeight / 2 - 100 };
+const startingPosition = { x: innerWidth - 250, y: innerHeight / 2 - 100 };
 
-const ComponentDraggable = () => {
-  const {
-    picturePosition,
-    handleMouseDown,
-    handleMouseMove,
-    handleMouseUp,
-    isDragging,
-  } = useDrag(startingPosition);
+const ComponentDraggable = ({ component }) => {
+  const [isOpen, SetIsOpen] = useState(false);
+
+  const { picturePosition, handleMouseDown, handleMouseMove, handleMouseUp } =
+    useDrag(startingPosition);
   return (
     <Draggable>
       <InnerDraggable
@@ -21,9 +19,9 @@ const ComponentDraggable = () => {
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseMove}
         onMouseUp={handleMouseUp}
-        onDoubleClick={() => console.log(isDragging)}
+        onDoubleClick={() => SetIsOpen(!isOpen)}
       >
-        testes
+        {isOpen ? component : "Clique aqui"}
       </InnerDraggable>
     </Draggable>
   );

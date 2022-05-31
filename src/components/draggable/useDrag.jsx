@@ -54,7 +54,6 @@ const useDrag = (startingPosition) => {
     handleMouseDown,
     handleMouseMove,
     handleMouseUp,
-    isDragging,
   };
 };
 
