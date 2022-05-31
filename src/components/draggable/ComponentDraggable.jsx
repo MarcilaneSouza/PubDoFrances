@@ -22,7 +22,7 @@ const ComponentDraggable = ({ component }) => {
         onMouseLeave={handleMouseMove}
         onMouseUp={handleMouseUp}
       >
-        <Button onDoubleClick={() => SetIsOpen(!isOpen)}>
+        <Button onClick={() => SetIsOpen(!isOpen)}>
           {isOpen ? <MdOutlineFullscreen /> : <MdOutlineFullscreenExit />}
         </Button>
         {isOpen ? component.open : component.close}
