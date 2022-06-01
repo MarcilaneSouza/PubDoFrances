@@ -12,8 +12,8 @@ export const Body = styled.body`
 position: relative;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-margin: 3px 10px;
-gap:97px;
+margin: 3px 8px;
+gap:40px;
 /* border: 1px solid red;  */
 `;
 
@@ -32,21 +32,49 @@ flex-direction: column;
 `;
 
 export const DivMenu = styled.div`
-border: solid 1px green;
+display: flex;
+flex-direction: column;
+align-self: center;
+justify-content: center;
+text-align: center;
 margin: 30px 0px;
-width: 100px;
-height: 126px;
-
+width: 140px;
+height: 165px;
 background-color:#1F1D2B;
 border-radius: 8px;
+/* border: solid 1px green; */
+`;
+
+export const DivNav = styled.div`
+margin: 1px 10px;
+width: 500px;
+height: 27px;
+border-bottom: 1px solid white; 
 `;
 
 export const H = styled.h1`
 font-size: ${(props) => props.primary ? "20px" : "25px"};
-margin: ${(props) => props.primary ? "0px 10px" : ""} ;
+margin: ${(props) => props.primary ? "13px 10px" : ""} ;
 /* border: 1px solid yellow; */
+`;
 
+export const Descricao = styled.p`
+font-size: 14px;
+margin: 70px 15px 15px 20px;
+`;
 
+export const Valor = styled.p`
+font-size: 11px;
+margin: 0px 10px 0px 10px;
+`;
+
+export const Img = styled.img`
+width: 95px;
+height: 95px;
+margin: 0px 22px 120px;
+border-radius: 50%;
+border: 1px solid blue;
+position: absolute;
 `;
 
 export const Span = styled.span`
@@ -82,11 +110,7 @@ padding-bottom: 13px;
     color:tomato;
     border-bottom: tomato solid 2px;
 }
-`
-
-export const DivNav = styled.div`
-margin: 1px 10px;
-width: 500px;
-height: 27px;
-border-bottom: 1px solid white; 
 `;
+
+
+

@@ -5,12 +5,24 @@ const Cards = (props) => {
   return (
     <>
       <S.TituloData>
-        <S.H primary> {props.tituloBody}</S.H>
+        <S.H primary>{props.tituloBody}</S.H>
       </S.TituloData>
       <S.Body>
-        <S.DivMenu></S.DivMenu>
-        <S.DivMenu></S.DivMenu>
-        <S.DivMenu></S.DivMenu>
+        <S.DivMenu>
+          <S.Img />
+          <S.Descricao>{props.descricao}</S.Descricao>
+          <S.Valor>{props.descricaoValor}</S.Valor>
+        </S.DivMenu>
+        <S.DivMenu>
+          <S.Img />
+          <S.Descricao>{props.descricao}</S.Descricao>
+          <S.Valor>{props.descricaoValor}</S.Valor>
+        </S.DivMenu>
+        <S.DivMenu>
+          <S.Img />
+          <S.Descricao>{props.descricao}</S.Descricao>
+          <S.Valor>{props.descricaoValor}</S.Valor>
+        </S.DivMenu>
       </S.Body>
     </>
   );

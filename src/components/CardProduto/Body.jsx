@@ -19,7 +19,8 @@ const CardsProdutos = (props) => {
       </S.DivNav>
       <Cards 
          tituloBody='Petiscos'
-          />
+         descricao='Aqui vai a descrição do produto escolhido'
+         descricaoValor='R$ 14.99' />
     </S.Header>
       </>
   );
