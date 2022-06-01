@@ -10,7 +10,7 @@ function App() {
       <GlobalStyle />
       <CardHelloWorld />
       <ComponentDraggable
-        component={{ open: <Teste />, close: "clique duas vezes aqui" }}
+        component={{ open: <Teste />, close: "Faça seu pedido" }}
       />
     </ThemeProvider>
   );

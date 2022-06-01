@@ -7,7 +7,7 @@ const useDrag = (startingPosition) => {
     translation: startingPosition,
     lastTranslation: startingPosition,
   });
-  const { isDragging, click } = dragInfo;
+  const { isDragging } = dragInfo;
 
   const handleMouseDown = ({ clientX, clientY }) => {
     if (!isDragging) {

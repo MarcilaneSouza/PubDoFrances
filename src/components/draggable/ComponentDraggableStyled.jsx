@@ -17,7 +17,7 @@ export const InnerDraggable = styled.div.attrs(({ settings, theme }) => ({
   },
 }))`
   box-sizing: border-box;
-  padding: 2rem 2rem;
+  padding: 1.7rem 1rem;
 
   background-color: ${({ theme }) => theme.inside};
 
@@ -26,7 +26,7 @@ export const InnerDraggable = styled.div.attrs(({ settings, theme }) => ({
 
   display: flex;
   gap: 0.6rem;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   align-content: center;
 

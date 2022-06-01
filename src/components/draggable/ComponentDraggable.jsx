@@ -23,7 +23,7 @@ const ComponentDraggable = ({ component }) => {
         onMouseUp={handleMouseUp}
       >
         <Button onClick={() => SetIsOpen(!isOpen)}>
-          {isOpen ? <MdOutlineFullscreen /> : <MdOutlineFullscreenExit />}
+          {isOpen ? <MdOutlineFullscreenExit /> : <MdOutlineFullscreen />}
         </Button>
         {isOpen ? component.open : component.close}
       </InnerDraggable>

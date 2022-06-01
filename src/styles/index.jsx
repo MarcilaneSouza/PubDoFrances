@@ -1,19 +1,13 @@
 import { GlobalStyle } from "./GlobalStyle";
 import { temaPadrao } from "./temas";
-import {
-  bodyPadrao,
-  bordaPadrao,
-  insidePadrao,
-  textoLightPadrao,
-  textoPadrao,
-} from "./variaveis";
+import { gunMetal, arsenic, darkMetal, platinum, white } from "./variaveis";
 
 export {
-  bodyPadrao,
-  bordaPadrao,
-  insidePadrao,
-  textoLightPadrao,
-  textoPadrao,
+  gunMetal,
+  arsenic,
+  darkMetal,
+  platinum,
+  white,
   temaPadrao,
   GlobalStyle,
 };
