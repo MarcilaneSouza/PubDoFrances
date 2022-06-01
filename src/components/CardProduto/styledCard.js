@@ -4,7 +4,7 @@ export const Header = styled.header`
 margin: 0 auto;
 width: 520px;
 height: 393px;
-border: 2px solid tomato;
+border: 2px solid #1F1D2B;
 background-color: "#1F1D2B";
 `;
 
@@ -54,7 +54,7 @@ border-bottom: 1px solid white;
 
 export const H = styled.h1`
 font-size: ${(props) => props.primary ? "20px" : "25px"};
-margin: ${(props) => props.primary ? "13px 10px" : ""} ;
+margin: ${(props) => props.primary ? "13px 10px" : "4px 0px"} ;
 /* border: 1px solid yellow; */
 `;
 
