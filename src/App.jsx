@@ -1,14 +1,23 @@
-import { ThemeProvider } from "styled-components";
-import CardHelloWorld from "./pages/home/CardHelloWorld";
-import { GlobalStyle, temaPadrao } from "./styles";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
+//import de estilos
+import { GlobalStyle } from './styles/GlobalStyle'
+//importacao da NavBar
+import NavBar from './components/NavBar/NavBar'
 
 function App() {
   return (
-    <ThemeProvider theme={temaPadrao}>
+    <Router>
       <GlobalStyle />
-      <CardHelloWorld />
-    </ThemeProvider>
+      <NavBar />
+      <Routes>
+        <Route path="/" />
+        <Route path="/combos" />
+        <Route path="/drinks" />
+        <Route path="/petiscos" />
+        <Route path="/sobre" />
+      </Routes>
+    </Router>
   );
 }
 
