@@ -47,11 +47,4 @@ table {
 	border-spacing: 0;
 }
 
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: ${({ theme }) => theme.body};
-  color: ${({ theme }) => theme.texto};
-}
-
 `;
