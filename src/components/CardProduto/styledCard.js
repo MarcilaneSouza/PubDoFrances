@@ -1,11 +1,20 @@
 import styled from "styled-components";
 
-export const Main = styled.main`
+export const Header = styled.header`
 margin: 0 auto;
-width: 500px;
+width: 520px;
 height: 393px;
-border: 2px solid #E0E6E9;
+border: 2px solid tomato;
 background-color: "#1F1D2B";
+`;
+
+export const Body = styled.body`
+position: relative;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+margin: 3px 10px;
+gap:97px;
+/* border: 1px solid red;  */
 `;
 
 export const DivA = styled.div`
@@ -13,7 +22,7 @@ display: flex;
 justify-content:space-between;
 align-items: center;
 margin: 5px 10px auto;
-width: 480px;
+width: 500px;
 height: 55px;
 `;
 
@@ -22,8 +31,21 @@ display: flex;
 flex-direction: column;
 `;
 
+export const DivMenu = styled.div`
+border: solid 1px green;
+margin: 30px 0px;
+width: 100px;
+height: 126px;
+
+background-color:#1F1D2B;
+border-radius: 8px;
+`;
+
 export const H = styled.h1`
-font-size: 25px;
+font-size: ${(props) => props.primary ? "20px" : "25px"};
+margin: ${(props) => props.primary ? "0px 10px" : ""} ;
+/* border: 1px solid yellow; */
+
 
 `;
 
@@ -64,7 +86,7 @@ padding-bottom: 13px;
 
 export const DivNav = styled.div`
 margin: 1px 10px;
-width: 480px;
+width: 500px;
 height: 27px;
 border-bottom: 1px solid white; 
 `;

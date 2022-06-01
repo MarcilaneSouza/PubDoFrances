@@ -1,10 +1,12 @@
 import React from "react";
 import * as S from "./styledCard.js";
-import ListasProdutos from "../CardProduto/ListasProdutos";
+import ListasProdutos from "./ListasProdutos";
+import Cards from "./Cards.jsx";
 
 const CardsProdutos = (props) => {
   return (
-    <S.Main>
+    <>
+    <S.Header>
       <S.DivA>
         <S.TituloData>
           <S.H>{props.titulo}</S.H>
@@ -15,7 +17,11 @@ const CardsProdutos = (props) => {
       <S.DivNav>
         <ListasProdutos />
       </S.DivNav>
-    </S.Main>
+      <Cards 
+         tituloBody='Petiscos'
+          />
+    </S.Header>
+      </>
   );
 };
 
