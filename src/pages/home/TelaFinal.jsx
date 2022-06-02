@@ -5,8 +5,8 @@ const CardsMenu = () => {
   return (
     <>
     <CardsProdutos
-    titulo='comida do dia'
-    placeholder='Pesquise seu prato'
+    titulo='Prato do Dia'
+    placeholder= '&#128269; Pesquise seu prato'
     data='Terça-Feira, 31 mai 2022'
     />
     </>

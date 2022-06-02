@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Header = styled.header`
+export const Main = styled.main`
 margin: 0 auto;
 width: 520px;
 height: 393px;
@@ -85,7 +85,6 @@ export const InputPesquisa = styled.input`
 width: 164px;
 height: 20px;
 border-radius: 6px;
-color: white;
 border: none;
 background-color: #ABBBC2;
 `;
