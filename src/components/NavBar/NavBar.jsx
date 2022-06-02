@@ -13,6 +13,9 @@ import {
   OpenLinksButton,
   NavBarLinkExtended,
   Header,
+  Apresentation,
+  ApresentationDestaque,
+  BoxApresentation,
 } from "./NavBarstyle";
 import LogoImg from "/assets/images/iconePUB.png";
 
@@ -28,9 +31,9 @@ const NavBar = () => {
           <RightContainer>
             <NavBarLinkContainer>
               <NavBarLink to="/">HOME</NavBarLink>
-              <NavBarLink to="/drinks">DRINKS</NavBarLink>
+              <NavBarLink to="/">DRINKS</NavBarLink>
               <NavBarLink to="/combos">COMBOS</NavBarLink>
-              <NavBarLink to="/petiscos">PETISCOS</NavBarLink>
+              <NavBarLink to="/contatos">CONTATOS</NavBarLink>
               <NavBarLink to="/sobre">SOBRE</NavBarLink>
               <OpenLinksButton
                 onClick={() => {
@@ -52,6 +55,11 @@ const NavBar = () => {
           </NavBarExtendContainer>
         )}
       </NavbarContainer>
+
+      <BoxApresentation>
+        <ApresentationDestaque>Pub do Francês</ApresentationDestaque>
+        <Apresentation>O único PUB com show ao vivo da Kassi</Apresentation>
+      </BoxApresentation>
     </Header>
   );
 };

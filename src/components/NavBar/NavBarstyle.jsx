@@ -1,11 +1,15 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { vermelho } from "../../styles";
+import { darkMetal, vermelho } from "../../styles";
 //criação da navbar
 export const Header = styled.header`
+  font-family: "Nunito", sans-serif;
   box-sizing: border-box;
-  padding-top: 3rem;
 
+  display: flex;
+  flex-direction: column;
+  opacity: 0.7;
+  padding-top: 2rem;
   height: 800px;
   width: 100%;
 
@@ -16,9 +20,12 @@ export const Header = styled.header`
   background-size: cover;
 `;
 export const NavbarContainer = styled.nav`
+  backdrop-filter: blur(4px);
+  
+  opacity: 1;
   box-sizing: border-box;
   width: 100%;
-  height: ${(props) => (props.extendNavbar ? "50vh" : "80px")};
+  height: ${(extendNavbar) => (extendNavbar ? "auto" : "80px")};
   background-color: transparent;
   border-bottom: 1px solid ${({ theme }) => theme.borda};
   display: flex;
@@ -36,7 +43,7 @@ export const LeftContainer = styled.div`
   flex: 30%;
   display: flex;
   justify-content: flex-start;
-  padding-left: 5%;
+  padding-left: 3%;
   align-items: center;
   background-color: transparent;
 `;
@@ -50,7 +57,7 @@ export const RightContainer = styled.div`
   flex: 70%;
   display: flex;
   align-items: center;
-  padding-left: 5%;
+  padding-left: 30%;
   justify-content: center;
   background-color: transparent;
 
@@ -72,14 +79,15 @@ export const NavBarInnerContainer = styled.div`
 
 export const NavBarLink = styled(Link)`
   color: ${({ theme }) => theme.textoSecundario};
+  font-weight: 700;
   font-size: x-large;
-  font-family: Arial;
   text-decoration: none;
   margin: 10px 15px;
   transition: all 0.3;
   cursor: pointer;
   border-bottom: solid 2px transparent;
   &:hover {
+    color: ${vermelho};
     border-bottom: solid 2px ${vermelho};
   }
 
@@ -91,10 +99,8 @@ export const NavBarLink = styled(Link)`
 export const NavBarLinkExtended = styled(Link)`
   color: #aba499;
   font-size: x-large;
-  font-family: Arial;
   text-decoration: none;
-  margin: 10px;
-  padding: 10px 0px;
+  margin: 10px 0;
 `;
 
 export const OpenLinksButton = styled.button`
@@ -120,4 +126,29 @@ export const NavBarExtendContainer = styled.div`
   @media (min-width: 750px) {
     display: none;
   }
+`;
+export const BoxApresentation = styled.article`
+  width: 60%;
+  margin-left: 3%;
+  box-sizing: border-box;
+
+  position: absolute;
+  top: 25rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+`;
+export const ApresentationDestaque = styled.p`
+  color: ${({ theme }) => theme.texto};
+  font-size: 3.1rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px ${darkMetal}, 3px 3px 5px ${vermelho};
+  word-break: break-word;
+`;
+
+export const Apresentation = styled.span`
+  margin-left: 1.5rem;
+  font-size: 2.1rem;
+  text-shadow: 4px 4px 4px ${darkMetal};
 `;

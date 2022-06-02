@@ -4,6 +4,7 @@ export const gunMetal = "#2D303E";
 export const white = "#FFFFFF";
 export const platinum = "#E0E6E9";
 export const vermelho = "#EA7C69";
+ 
 
 const size = {
   tablet: "800px",
