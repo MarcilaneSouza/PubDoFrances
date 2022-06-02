@@ -4,7 +4,7 @@ const DivHello = styled.div`
   text-align: center;
   padding: 1rem;
 
-  border: 2px solid ${({ theme }) => theme.borda};
+  border-bottom: 2px solid ${({ theme }) => theme.borda};
 
   background-color: ${({ theme }) => theme.inside};
 `;

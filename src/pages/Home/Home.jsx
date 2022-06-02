@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import CardHelloWorld from "./CardHelloWorld";
 
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
+  return <CardHelloWorld />;
+};
 
 export default Home;

@@ -1,15 +1,17 @@
 import {
-  bodyPadrao,
-  bordaPadrao,
-  insidePadrao,
-  textoLightPadrao,
-  textoPadrao,
+  gunMetal,
+  arsenic,
+  darkMetal,
+  platinum,
+  white,
+  vermelho,
 } from "./variaveis";
 
 export const temaPadrao = {
-  body: bodyPadrao,
-  inside: insidePadrao,
-  borda: bordaPadrao,
-  texto: textoPadrao,
-  textoSecundario: textoLightPadrao,
+  body: gunMetal,
+  inside: darkMetal,
+  borda: arsenic,
+  texto: white,
+  textoSecundario: platinum,
+  botao: vermelho,
 };

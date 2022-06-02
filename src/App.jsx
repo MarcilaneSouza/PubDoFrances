@@ -6,6 +6,7 @@ import { GlobalStyle } from "./styles/GlobalStyle";
 import NavBar from "./components/NavBar/NavBar";
 import { ThemeProvider } from "styled-components";
 import { temaPadrao } from "./styles";
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <GlobalStyle />
         <NavBar />
         <Routes>
-          <Route path="/" />
+          <Route path="/" element={<Home />} />
           <Route path="/combos" />
           <Route path="/drinks" />
           <Route path="/petiscos" />

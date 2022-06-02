@@ -1,18 +1,32 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-
+import { vermelho } from "../../styles";
 //criação da navbar
+const imagePub = "src/assets/images/background.jpg";
+export const Header = styled.header`
+  box-sizing: border-box;
+  padding-top: 3rem;
 
+  height: 800px;
+  width: 100%;
+
+  background-image: url(${imagePub});
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+`;
 export const NavbarContainer = styled.nav`
   box-sizing: border-box;
   width: 100%;
-  height: ${(props) => (props.extendNavbar ? "60vh" : "80px")};
-  background-color: ${({ theme }) => theme.inside};
-  border: 1px solid ${({ theme }) => theme.borda};
+  height: ${(props) => (props.extendNavbar ? "50vh" : "80px")};
+  background-color: transparent;
+  border-bottom: 1px solid ${({ theme }) => theme.borda};
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: all 0.5s;
 
   @media (min-width: 750px) {
     height: 90px;
@@ -25,7 +39,7 @@ export const LeftContainer = styled.div`
   justify-content: flex-start;
   padding-left: 5%;
   align-items: center;
-  background-color: ${({ theme }) => theme.inside};
+  background-color: transparent;
 `;
 
 export const Logo = styled.img`
@@ -39,7 +53,7 @@ export const RightContainer = styled.div`
   align-items: center;
   padding-left: 5%;
   justify-content: center;
-  background-color: ${({ theme }) => theme.inside};
+  background-color: transparent;
 
   @media (max-width: 750px) {
     justify-content: flex-end;
@@ -67,7 +81,7 @@ export const NavBarLink = styled(Link)`
   cursor: pointer;
   border-bottom: solid 2px transparent;
   &:hover {
-    border-bottom: solid 2px #ea7c69;
+    border-bottom: solid 2px ${vermelho};
   }
 
   @media (max-width: 750px) {
@@ -102,7 +116,7 @@ export const NavBarExtendContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: ${({ theme }) => theme.inside};
+  background-color: transparent;
 
   @media (min-width: 750px) {
     display: none;
