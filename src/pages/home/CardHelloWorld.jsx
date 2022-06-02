@@ -3,7 +3,7 @@ import { ContainerSection } from "../../components/container/ContainerStyled";
 import ComponentDraggable from "../../components/draggable/ComponentDraggable";
 import { DivHello, Hello } from "../../components/sectionHello/BoxHello";
 
-export const CardHelloWorld = () => {
+const CardHelloWorld = () => {
   return (
     <>
       <ContainerSection>
@@ -21,3 +21,4 @@ export const CardHelloWorld = () => {
   );
 };
 
+export default CardHelloWorld;

@@ -1,6 +1,8 @@
 import React from "react";
-import { CardHelloWorld } from "./CardHelloWorld";
+import CardHelloWorld from "./CardHelloWorld";
 
-export const Home = () => {
+const Home = () => {
   return <CardHelloWorld />;
 };
+
+export default Home;
