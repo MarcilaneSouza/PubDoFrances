@@ -6,7 +6,7 @@ import { GlobalStyle } from "./styles/GlobalStyle";
 import NavBar from "./components/NavBar/NavBar";
 import { ThemeProvider } from "styled-components";
 import { temaPadrao } from "./styles";
-import Home from "./pages/Home/SectionHome";
+import {Home} from "./pages/Home/SectionHome";
 
 function App() {
   return (
