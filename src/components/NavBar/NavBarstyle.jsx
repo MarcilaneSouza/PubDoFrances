@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { vermelho } from "../../styles";
 //criação da navbar
-const imagePub = "src/assets/images/background.jpg";
+const imagePub = "/public/assets/images/background.jpg";
 export const Header = styled.header`
   box-sizing: border-box;
   padding-top: 3rem;

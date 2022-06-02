@@ -14,7 +14,7 @@ import {
   NavBarLinkExtended,
   Header,
 } from "./NavBarstyle";
-import LogoImg from "../../assets/images/iconePUB.png";
+import LogoImg from "/public/assets/images/iconePUB.png";
 
 const NavBar = () => {
   const [activeNavBar, setActiveNavBar] = useState(false);
