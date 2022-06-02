@@ -1,5 +1,5 @@
 import React from "react";
-import CardHelloWorld from "./cardHelloWorld";
+import CardHelloWorld from "./HelloWorld";
 
 const Home = () => {
   return <CardHelloWorld />;
