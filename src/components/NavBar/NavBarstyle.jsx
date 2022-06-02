@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { vermelho } from "../../styles";
 //criação da navbar
-const imagePub = "/public/assets/images/background.jpg";
+const imagePub = "/assets/images/background.jpg";
 export const Header = styled.header`
   box-sizing: border-box;
   padding-top: 3rem;
@@ -10,7 +10,7 @@ export const Header = styled.header`
   height: 800px;
   width: 100%;
 
-  background-image: url(${imagePub});
+  background-image: url("/assets/images/background.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
