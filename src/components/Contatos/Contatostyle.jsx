@@ -3,7 +3,31 @@ import styled from "styled-components";
 export const H = styled.h1` 
 text-align:center;
 font-size:30px;
+padding-left:30px;
 `;
+
+export const Icons = styled.p`
+
+font-size:57px;
+margin-right:20px;
+
+`
+export const Dicon = styled.div`
+display:flex;
+margin:40px;
+padding-inline-end:20px;
+
+
+
+`
+
+export const I = styled.p`
+font-size:57px;
+margin-left:20px;
+
+
+`
+
 
 export const C = styled.div`
 overflow:hidden;
@@ -13,6 +37,8 @@ background-color:rgb(31,29,43);
 display:flex;
 align-items:center;
 flex-direction:column;
+border-radius:35px;
+box-shadow: black 8px 8px ;
 
 width:330px;
 height:370px;
@@ -23,7 +49,8 @@ export const DivCard =styled.div`
 display:flex;
 justify-content:space-evenly;
 flex-wrap:wrap;
-gap: 1rem;   
+gap: 1rem; 
+ 
 
 
     
