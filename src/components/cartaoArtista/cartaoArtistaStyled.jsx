@@ -33,7 +33,7 @@ export const TituloArtista = styled.h3`
 export const ImgArtista = styled.img`
   height: 250px;
   width: 250px;
-
+  background-color: transparent;
   border-radius: 8px;
 `;
 
