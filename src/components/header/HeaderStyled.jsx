@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderStyled = styled.header`
+  box-sizing: border-box;
   font-family: "Nunito", sans-serif;
   box-sizing: border-box;
 

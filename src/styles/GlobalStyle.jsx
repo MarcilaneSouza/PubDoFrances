@@ -56,4 +56,24 @@ body {
 
   }
 
+  ::-webkit-scrollbar {
+	width: 7px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background: ${({ theme }) => theme.body};
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background: ${({ theme }) => theme.body};
+	border: 1px solid ${({ theme }) => theme.borda};
+	border-radius: 20px;
+	right: 5px;
+  
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+	background: ${({ theme }) => theme.inside};
+  }
+
 `;
