@@ -1,5 +1,5 @@
 import React from "react";
-import BoxApresentacao from "../boxApresentação/BoxApresentacao";
+import { Borda } from "../container/ContainerStyled";
 import NavBar from "../NavBar/NavBar";
 import { HeaderStyled } from "./HeaderStyled";
 
@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <HeaderStyled>
       <NavBar />
-      <BoxApresentacao />
+      <Borda />
     </HeaderStyled>
   );
 };

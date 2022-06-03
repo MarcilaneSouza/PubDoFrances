@@ -26,7 +26,7 @@ const NavBar = () => {
         <RightContainer>
           <NavBarLinkContainer>
             <NavBarLink to="/">HOME</NavBarLink>
-            <NavBarLink to="/">EVENTOS</NavBarLink>
+            <NavBarLink to="/eventos">EVENTOS</NavBarLink>
             <NavBarLink to="/contatos">CONTATOS</NavBarLink>
             <NavBarLink to="/sobre">SOBRE</NavBarLink>
             <OpenLinksButton
@@ -42,7 +42,7 @@ const NavBar = () => {
       {activeNavBar && (
         <NavBarExtendContainer>
           <NavBarLinkExtended to="/">HOME</NavBarLinkExtended>
-          <NavBarLinkExtended to="/drinks">DRINKS</NavBarLinkExtended>
+          <NavBarLinkExtended to="/eventos">EVENTOS</NavBarLinkExtended>
           <NavBarLinkExtended to="/contatos">CONTATOS</NavBarLinkExtended>
           <NavBarLinkExtended to="/sobre">SOBRE</NavBarLinkExtended>
         </NavBarExtendContainer>

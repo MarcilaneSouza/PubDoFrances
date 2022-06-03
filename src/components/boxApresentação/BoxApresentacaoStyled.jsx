@@ -7,10 +7,11 @@ export const Boxpresentation = styled.article`
   box-sizing: border-box;
 
   position: absolute;
-  top: 25rem;
+  top: 18.5rem;
 
   display: flex;
   flex-direction: column;
+  gap: 3px;
   gap: 5px;
 `;
 export const ApresentacaoDestaque = styled.p`

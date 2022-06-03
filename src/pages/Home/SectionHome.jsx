@@ -1,9 +1,14 @@
 import React from "react";
+import BoxApresentacao from "../../components/boxApresentação/BoxApresentacao";
 import { ContainerSection } from "../../components/container/ContainerStyled";
+
 const Home = () => {
   return (
     <ContainerSection>
-      <div>Olá</div>
+      <BoxApresentacao
+        destaque={"PUB do Francês"}
+        texto={"Drinks e Lanches únicos!"}
+      />
     </ContainerSection>
   );
 };

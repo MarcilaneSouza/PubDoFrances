@@ -6,6 +6,7 @@ import { ThemeProvider } from "styled-components";
 import { temaPadrao } from "./styles";
 import Home from "./pages/Home/SectionHome";
 import Header from "./components/header/Header";
+import Eventos from "./pages/eventos/Eventos";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/combos" />
+          <Route path="/eventos" element={<Eventos />} />
           <Route path="/drinks" />
           <Route path="/petiscos" />
           <Route path="/sobre" />

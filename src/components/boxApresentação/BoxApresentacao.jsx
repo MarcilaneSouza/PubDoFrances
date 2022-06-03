@@ -5,11 +5,11 @@ import {
   Boxpresentation,
 } from "./BoxApresentacaoStyled";
 
-const BoxApresentacao = () => {
+const BoxApresentacao = ({ destaque, texto }) => {
   return (
     <Boxpresentation>
-      <ApresentacaoDestaque>PUB do Francês</ApresentacaoDestaque>
-      <Apresentacao>O único PUB com show ao vivo da Kassi</Apresentacao>
+      <ApresentacaoDestaque>{destaque}</ApresentacaoDestaque>
+      <Apresentacao>{texto}</Apresentacao>
     </Boxpresentation>
   );
 };
