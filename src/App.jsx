@@ -2,17 +2,17 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import { GlobalStyle } from "./styles/GlobalStyle";
 //importacao da NavBar
-import NavBar from "./components/NavBar/NavBar";
 import { ThemeProvider } from "styled-components";
 import { temaPadrao } from "./styles";
 import Home from "./pages/Home/SectionHome";
+import Header from "./components/header/Header";
 
 function App() {
   return (
     <ThemeProvider theme={temaPadrao}>
       <Router>
         <GlobalStyle />
-        <NavBar />
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/combos" />

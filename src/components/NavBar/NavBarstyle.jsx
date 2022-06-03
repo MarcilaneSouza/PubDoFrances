@@ -2,26 +2,10 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { darkMetal, vermelho } from "../../styles";
 //criação da navbar
-export const Header = styled.header`
-  font-family: "Nunito", sans-serif;
-  box-sizing: border-box;
 
-  display: flex;
-  flex-direction: column;
-  opacity: 0.7;
-  padding-top: 2rem;
-  height: 800px;
-  width: 100%;
-
-  background-image: url("/assets/images/background.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-`;
 export const NavbarContainer = styled.nav`
   backdrop-filter: blur(4px);
-  
+
   opacity: 1;
   box-sizing: border-box;
   width: 100%;
@@ -49,15 +33,16 @@ export const LeftContainer = styled.div`
 `;
 
 export const Logo = styled.img`
-  margin: 20px;
-  height: 80px;
+  margin: 0 0 20px 20px;
+  width: 90px;
+  height: 90px;
 `;
 
 export const RightContainer = styled.div`
   flex: 70%;
   display: flex;
   align-items: center;
-  padding-left: 30%;
+  padding-left: 35%;
   justify-content: center;
   background-color: transparent;
 
@@ -85,6 +70,8 @@ export const NavBarLink = styled(Link)`
   margin: 10px 15px;
   transition: all 0.3;
   cursor: pointer;
+  text-shadow: 4px 4px 4px ${darkMetal};
+
   border-bottom: solid 2px transparent;
   &:hover {
     color: ${vermelho};
@@ -97,10 +84,15 @@ export const NavBarLink = styled(Link)`
 `;
 
 export const NavBarLinkExtended = styled(Link)`
-  color: #aba499;
+  color: ${({ theme }) => theme.textoSecundario};
   font-size: x-large;
   text-decoration: none;
   margin: 10px 0;
+
+  &:hover {
+    color: ${vermelho};
+    border-bottom: solid 2px ${vermelho};
+  }
 `;
 
 export const OpenLinksButton = styled.button`
@@ -126,29 +118,4 @@ export const NavBarExtendContainer = styled.div`
   @media (min-width: 750px) {
     display: none;
   }
-`;
-export const BoxApresentation = styled.article`
-  width: 60%;
-  margin-left: 3%;
-  box-sizing: border-box;
-
-  position: absolute;
-  top: 25rem;
-
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-`;
-export const ApresentationDestaque = styled.p`
-  color: ${({ theme }) => theme.texto};
-  font-size: 3.1rem;
-  font-weight: 700;
-  text-shadow: 2px 2px 4px ${darkMetal}, 3px 3px 5px ${vermelho};
-  word-break: break-word;
-`;
-
-export const Apresentation = styled.span`
-  margin-left: 1.5rem;
-  font-size: 2.1rem;
-  text-shadow: 4px 4px 4px ${darkMetal};
 `;

@@ -1,8 +1,11 @@
 import React from "react";
-import CardHelloWorld from "./HelloWorld";
-
+import { ContainerSection } from "../../components/container/ContainerStyled";
 const Home = () => {
-  return <div>Olá</div>;
+  return (
+    <ContainerSection>
+      <div>Olá</div>
+    </ContainerSection>
+  );
 };
 
 export default Home;
