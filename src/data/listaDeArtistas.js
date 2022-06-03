@@ -12,6 +12,6 @@ export const lista = [
   {
     nome: "Dupla TherezeAna",
     data: "Domingo, das 17h às 21h",
-    image: "/assets/images/artistas/TherezeAna.PNG",
+    image: "/assets/images/artistas/Therezeana.PNG",
   },
 ];
