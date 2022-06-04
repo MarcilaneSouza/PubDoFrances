@@ -22,6 +22,6 @@ export const listaContato = [
   {
     nome: "Marcilane",
     imagem: "/assets/images/contatos/marcilane.jpg",
-    link: { linkedin: "", github: "" },
+    link: { linkedin: "#", github: "#" },
   },
 ];
