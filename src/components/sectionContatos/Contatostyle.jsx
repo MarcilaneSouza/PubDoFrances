@@ -6,7 +6,7 @@ export const H = styled.h1`
   padding-left: 30px;
 `;
 
-export const Icons = styled.p`
+export const Icons = styled.a`
   font-size: 57px;
   margin: 0 2rem;
 `;
