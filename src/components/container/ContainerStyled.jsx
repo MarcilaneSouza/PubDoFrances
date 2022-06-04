@@ -11,6 +11,6 @@ export const ContainerSection = styled.section`
 export const Borda = styled.div`
   width: 80%;
   height: 1px;
-  margin: 0px auto;
+  margin: 2px auto;
   border-bottom: 2px solid ${({ theme }) => theme.borda};
 `;

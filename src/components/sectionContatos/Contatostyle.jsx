@@ -1,9 +1,11 @@
 import styled from "styled-components";
+import { darkMetal, vermelho } from "../../styles";
 
 export const H = styled.h1`
   text-align: center;
   font-size: 30px;
   padding-left: 30px;
+  text-shadow: 4px 4px 4px ${darkMetal};
 `;
 
 export const Icons = styled.p`
@@ -51,6 +53,7 @@ export const N = styled.h2`
   text-align: center;
   font-size: 30px;
   padding: 15px;
+  text-shadow: 2px 2px 4px ${darkMetal}, 3px 3px 5px ${vermelho};
 `;
 
 export const Imagem = styled.img`

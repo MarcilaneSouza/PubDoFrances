@@ -32,9 +32,14 @@ export const TituloArtista = styled.h3`
 
 export const ImgArtista = styled.img`
   height: 250px;
-  width: 250px;
+  width: 280px;
   background-color: transparent;
   border-radius: 8px;
+  box-shadow: 2px 2px ${({ theme }) => theme.borda};
+  :hover {
+    cursor: pointer;
+    box-shadow: 2px 2px ${({ theme }) => theme.botao};
+  }
 `;
 
 export const DataApresentacao = styled.p`
