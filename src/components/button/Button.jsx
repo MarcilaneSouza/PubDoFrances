@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Button = styled.button`
   color: ${({ theme }) => theme.texto};
   box-sizing: border-box;
-  font-size: 2rem;
+  font-size: 3rem;
   padding: auto;
 
   display: flex;
@@ -13,7 +13,7 @@ export const Button = styled.button`
   border-radius: 12px;
   border: none;
 
-  transition: box-shadow 0.8s;
+  transition: box-shadow 0.4s;
 
   :hover {
     cursor: pointer;

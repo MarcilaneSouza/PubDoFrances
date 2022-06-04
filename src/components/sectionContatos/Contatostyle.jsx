@@ -8,8 +8,7 @@ export const H = styled.h1`
 
 export const Icons = styled.p`
   font-size: 57px;
-
-  margin-right: 20px;
+  margin: 0 2rem;
 `;
 export const Dicon = styled.div`
   display: flex;
@@ -17,7 +16,7 @@ export const Dicon = styled.div`
   padding-inline-end: 20px;
 `;
 
-export const I = styled.p`
+export const I = styled.a`
   font-size: 57px;
   margin-left: 20px;
 `;
@@ -35,7 +34,7 @@ export const C = styled.div`
   box-shadow: black 8px 8px;
 
   width: 350px;
-  height: 350px;
+  height: 370px;
 `;
 export const DivCard = styled.div`
   margin: 0 auto;
@@ -47,6 +46,8 @@ export const DivCard = styled.div`
 `;
 
 export const N = styled.h2`
+  box-sizing: border-box;
+  color: ${({ theme }) => theme.textoSecundario};
   text-align: center;
   font-size: 30px;
   padding: 15px;
