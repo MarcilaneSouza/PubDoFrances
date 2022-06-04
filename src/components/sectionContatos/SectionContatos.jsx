@@ -5,6 +5,7 @@ import { listaContato } from "../../data/listaContatos";
 import { Borda } from "../container/ContainerStyled";
 
 const SectionContatos = () => {
+  
   return (
     <>
       <Style.H>Contato da equipe</Style.H>

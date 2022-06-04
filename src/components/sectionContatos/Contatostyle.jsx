@@ -8,7 +8,7 @@ export const H = styled.h1`
   text-shadow: 4px 4px 4px ${darkMetal};
 `;
 
-export const Icons = styled.p`
+export const Icons = styled.a`
   font-size: 57px;
   margin: 0 2rem;
 `;
