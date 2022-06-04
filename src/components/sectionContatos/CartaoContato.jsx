@@ -10,11 +10,11 @@ const CartaoContato = ({ nome, imagem, link }) => {
       <Style.N>{nome}</Style.N>
       <Style.Imagem src={imagem} alt="Imagem dos criadores da página" />
       <Style.Dicon>
-        <Style.Icons href={link.linkedin}>
+        <Style.I href={link.linkedin}>
           <Button>
             <FaLinkedin />
           </Button>
-        </Style.Icons>
+        </Style.I>
         <Style.Icons href={link.github}>
           <Button>
             <FaGithubSquare />
