@@ -1,12 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-import { GlobalStyle } from "./styles/GlobalStyle";
-//importacao da NavBar
 import { ThemeProvider } from "styled-components";
-import { temaPadrao } from "./styles";
-import Home from "./pages/Home/SectionHome";
+import { GlobalStyle, temaPadrao } from "./styles";
+//importacao da NavBar
 import Header from "./components/header/Header";
 import Eventos from "./pages/eventos/Eventos";
+import Home from "./pages/Home/SectionHome";
+import Contatos from "./pages/contatos/Contatos";
 
 function App() {
   return (
@@ -17,8 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/eventos" element={<Eventos />} />
-          <Route path="/drinks" />
-          <Route path="/petiscos" />
+          <Route path="/contatos" element={<Contatos />} />
           <Route path="/sobre" />
         </Routes>
       </Router>
