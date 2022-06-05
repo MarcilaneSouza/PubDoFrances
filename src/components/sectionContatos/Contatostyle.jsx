@@ -15,6 +15,7 @@ export const Icons = styled.a`
 `;
 export const Dicon = styled.div`
   display: flex;
+  font-size: 3rem;
 
   margin: 2rem auto;
 `;

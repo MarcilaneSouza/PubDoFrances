@@ -3,11 +3,13 @@ import styled from "styled-components";
 export const Button = styled.button`
   color: ${({ theme }) => theme.texto};
   box-sizing: border-box;
-  font-size: 3rem;
-  padding: auto;
+  margin: 0.2rem;
+  padding: 0.3rem;
+  font-size: inherit;
 
   display: flex;
   justify-content: center;
+
   background-color: ${({ theme }) => theme.botao};
 
   border-radius: 12px;

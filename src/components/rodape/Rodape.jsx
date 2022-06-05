@@ -8,6 +8,7 @@ import {
   TiSocialInstagram,
   TiSocialGooglePlusCircular,
 } from "react-icons/ti";
+import { Button } from "../button/Button";
 
 const Rodape = () => {
   return (
@@ -35,6 +36,7 @@ const Rodape = () => {
             <fieldset>
               <Input type={"text"} placeholder="Seu E-mail" />
             </fieldset>
+            <Button>Enviar</Button>
           </FormContainer>
         }
       />
