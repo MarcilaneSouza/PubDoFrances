@@ -3,9 +3,10 @@ import { darkMetal, vermelho } from "../../styles";
 
 export const H = styled.h1`
   text-align: center;
-  font-size: 30px;
-  padding-left: 30px;
+  font-size: 2rem;
+
   text-shadow: 4px 4px 4px ${darkMetal};
+  font-weight: 700;
 `;
 
 export const Icons = styled.a`
@@ -14,8 +15,8 @@ export const Icons = styled.a`
 `;
 export const Dicon = styled.div`
   display: flex;
-  margin: 40px;
-  padding-inline-end: 20px;
+
+  margin: 2rem auto;
 `;
 
 export const I = styled.a`

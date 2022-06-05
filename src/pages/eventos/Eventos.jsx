@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import BoxApresentacao from "../../components/boxApresentação/BoxApresentacao";
 import { Apresentacao } from "../../components/boxApresentação/BoxApresentacaoStyled";
 import CardShows from "../../components/cardShows/CardShows";
@@ -10,6 +11,9 @@ import {
 const Eventos = () => {
   return (
     <>
+      <Helmet>
+        <title>PUB | Eventos </title>
+      </Helmet>
       <article style={{ width: "60%", margin: "0 auto", padding: "1rem" }}>
         <Apresentacao>
           Shows ao vivo todos os dias no ambiente mais bem frenquentado da
