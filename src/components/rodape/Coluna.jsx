@@ -2,7 +2,7 @@ import React from "react";
 import { Borda } from "../container/ContainerStyled";
 import { ColunaRodape, TituloRodape, TextoRodape } from "./RodapeStyled";
 
-const Coluna = ({ titulo, textos }) => {
+const Coluna = ({ titulo, textos, element }) => {
   return (
     <>
       <ColunaRodape>
@@ -10,6 +10,7 @@ const Coluna = ({ titulo, textos }) => {
         {textos.map((texto, i) => (
           <TextoRodape key={i}>{texto}</TextoRodape>
         ))}
+        {element}
       </ColunaRodape>
       <Borda />
     </>

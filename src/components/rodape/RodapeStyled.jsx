@@ -30,3 +30,23 @@ export const TextoRodape = styled.p`
   color: ${({ theme }) => theme.textoSecundario};
   text-align: left;
 `;
+
+export const NavRodape = styled.ul`
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+`;
+
+export const ItemNav = styled.li``;
+
+export const LinkNav = styled.a`
+  font-size: 2rem;
+  color: ${({ theme }) => theme.textoSecundario};
+  transition: color 0.4s;
+
+  :hover {
+    color: ${({ theme }) => theme.botao};
+    cursor: pointer;
+  }
+`;
