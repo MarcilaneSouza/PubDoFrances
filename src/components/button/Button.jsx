@@ -12,7 +12,7 @@ export const Button = styled.button`
 
   background-color: ${({ theme }) => theme.botao};
 
-  border-radius: 12px;
+  border-radius: 8px;
   border: none;
 
   transition: box-shadow 0.4s;

@@ -15,10 +15,8 @@ export const RodapeContainer = styled.footer`
 
 export const ColunaRodape = styled.aside`
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 
+  flex-direction: column;
   box-sizing: border-box;
 
   margin: 2rem auto;
@@ -32,7 +30,8 @@ export const ColunaRodape = styled.aside`
 
 export const TituloRodape = styled.p`
   font-weight: 700;
-  margin: 0 auto;
+  margin: 0 auto 1rem auto;
+  align-self: flex-start;
   font-size: 1.6rem;
 `;
 
@@ -54,6 +53,7 @@ export const ItemNav = styled.li``;
 
 export const LinkNav = styled.a`
   font-size: 2rem;
+  font-weight: 700;
   color: ${({ theme }) => theme.textoSecundario};
   transition: color 0.4s;
 

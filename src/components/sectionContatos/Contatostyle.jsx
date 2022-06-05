@@ -42,7 +42,7 @@ export const C = styled.div`
 `;
 export const DivCard = styled.div`
   margin: 0 auto;
-  width: 80%;
+  max-width: 1200px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
