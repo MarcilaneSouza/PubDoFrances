@@ -7,15 +7,27 @@ export const RodapeContainer = styled.footer`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+
+  @media (min-width: 850px) {
+    flex-direction: row;
+  }
 `;
 
 export const ColunaRodape = styled.aside`
-  box-sizing: border-box;
-  display: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  margin: 1rem auto;
-  width: 45%;
+
+  box-sizing: border-box;
+
+  margin: 2rem auto;
+  width: 50%;
   gap: 1rem;
+
+  @media (min-width: 850px) {
+    width: 20%;
+  }
 `;
 
 export const TituloRodape = styled.p`

@@ -11,8 +11,8 @@ const Coluna = ({ titulo, textos, element }) => {
           <TextoRodape key={i}>{texto}</TextoRodape>
         ))}
         {element}
+        <Borda />
       </ColunaRodape>
-      <Borda />
     </>
   );
 };
