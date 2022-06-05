@@ -6,6 +6,7 @@ import Header from "./components/header/Header";
 import Eventos from "./pages/eventos/Eventos";
 import Home from "./pages/Home/SectionHome";
 import Contatos from "./pages/contatos/Contatos";
+import Rodape from "./components/rodape/Rodape";
 
 function App() {
   return (
@@ -15,10 +16,15 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/eventos" title={'PUB | Eventos'} element={<Eventos />} />
+          <Route
+            path="/eventos"
+            title={"PUB | Eventos"}
+            element={<Eventos />}
+          />
           <Route path="/contatos" element={<Contatos />} />
           <Route path="/sobre" />
         </Routes>
+        <Rodape />
       </Router>
     </ThemeProvider>
   );
