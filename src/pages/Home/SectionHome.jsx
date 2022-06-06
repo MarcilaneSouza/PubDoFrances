@@ -2,6 +2,7 @@ import React from "react";
 import BoxApresentacao from "../../components/boxApresentação/BoxApresentacao";
 import { ContainerSection } from "../../components/container/ContainerStyled";
 import { Helmet } from "react-helmet";
+import Produtos from "../produtos/Produtos";
 const Home = () => {
   return (
     <>
@@ -12,7 +13,8 @@ const Home = () => {
         destaque={"PUB do Francês"}
         texto={"Drinks e Lanches únicos!"}
       />
-      <ContainerSection></ContainerSection>
+
+      <Produtos />
     </>
   );
 };
