@@ -24,10 +24,10 @@ export const Input = styled.input`
   border-radius: 5px;
 
   background-color: ${({ theme }) => theme.body};
-  transition: all 0.5s;
+  transition: all 0.6s;
+
   :focus {
     color: ${({ theme }) => theme.texto};
-    border: 3px solid ${({ theme }) => theme.botao};
     background-color: ${({ theme }) => theme.borda};
   }
 `;

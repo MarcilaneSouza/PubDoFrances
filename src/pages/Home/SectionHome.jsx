@@ -8,11 +8,11 @@ const Home = () => {
       <Helmet>
         <title>PUB | Home</title>
       </Helmet>
+      <BoxApresentacao
+        destaque={"PUB do Francês"}
+        texto={"Drinks e Lanches únicos!"}
+      />
       <ContainerSection>
-        <BoxApresentacao
-          destaque={"PUB do Francês"}
-          texto={"Drinks e Lanches únicos!"}
-        />
       </ContainerSection>
     </>
   );
