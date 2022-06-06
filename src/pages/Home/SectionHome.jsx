@@ -12,8 +12,7 @@ const Home = () => {
         destaque={"PUB do Francês"}
         texto={"Drinks e Lanches únicos!"}
       />
-      <ContainerSection>
-      </ContainerSection>
+      <ContainerSection></ContainerSection>
     </>
   );
 };
