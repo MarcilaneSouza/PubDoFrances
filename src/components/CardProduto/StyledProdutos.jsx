@@ -5,7 +5,7 @@ export const ProdutosContainer = styled.div`
 
   margin: 1rem auto;
 
-  width: 85%;
+  width: 95%;
 
   border: 2px solid ${({ theme }) => theme.borda};
   border-radius: 4px;
@@ -36,7 +36,7 @@ export const Navlist = styled.ul`
 `;
 
 export const Icons = styled.p`
-  font-size: 2rem;
+  font-size: 1rem;
   padding: 0.5rem 0.8rem;
   text-align: center;
   color: ${({ theme }) => theme.botao};
