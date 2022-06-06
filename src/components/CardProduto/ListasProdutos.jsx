@@ -1,6 +1,7 @@
 import React from "react";
 import * as S from './styledCard'
 
+
 const ListasProdutos = () => {
   return (
     <>
