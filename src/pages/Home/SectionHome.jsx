@@ -45,11 +45,11 @@ const Home = () => {
             <Span>V -</Span> Para se adequar ao gosto do brasileiro, o pub passou por mudanças,
             assim, foi a música ao vivo, comidas típicas brasileiras e jogos,
             passaram a fazer parte dos pubs. Alguns até são temáticos,
-            inspirados nos mais diversos temas
+            inspirados nos mais diversos temas.
           </Li>
           <P>
-            Quer saber mais sobre PUB Do Francês?
-            <A href={{ Sobre }}> Clique Aqui</A>
+            Ficou interessado sobre PUB Do Francês?
+            <A href={{ Sobre }}> Clique Aqui</A> e saiba mais sobre o melhor PUB da ponte RIO-SP!
           </P>
         </Ol>
       </ContainerSection>
