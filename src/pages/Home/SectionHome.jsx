@@ -17,7 +17,7 @@ const Home = () => {
         <H>5 Curiosodades sobre PUBs:</H>
         <Ol type="I">
           <Li>
-            <Span>I-</Span> Os primeiros protótipos de pubs surgiram cerca de 2 mil anos
+            <Span>I -</Span> Os primeiros protótipos de pubs surgiram cerca de 2 mil anos
             atrás, a partir da ida dos romanos para o Reino Unido. Foram eles que
             construíram ao longo das estradas e cidades da Grã-Bretanha as
             chamadas tavernas, onde eram comercializados vinhos.
