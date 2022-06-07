@@ -11,7 +11,7 @@ const Produtos = () => {
   const [target, setTarget] = useState({});
   return (
     <ProdutosContainer>
-      <MenuLateralProdutos checked={target} />
+      <MenuLateralProdutos name={target.name} />
       <ReferenceToggle
         id="tab1"
         className=""

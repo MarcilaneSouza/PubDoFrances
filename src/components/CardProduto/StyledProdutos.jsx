@@ -26,7 +26,7 @@ export const ContainerSlide = styled.div`
 export const Slide = styled.div`
   display: ${({ display }) => display && display};
 
-  padding: 0 0.4rem;
+  padding: 0.4rem 0.4rem;
   position: absolute;
   left: ${({ right }) => (right ? right : "-500px")};
   transition: all ease-in-out 0.8s;
@@ -35,10 +35,10 @@ export const Slide = styled.div`
 export const Toggle = styled.label`
   font-size: 1rem;
   text-align: end;
-
   padding: 0.1rem 0.3rem 0 0.3rem;
   text-align: center;
-  color: ${({ theme }) => theme.botao};
+  color: ${({ active, theme }) => (active ? theme.text : theme.botao)};
+  background-color: ${({ theme, active }) => active == true && theme.botao};
   border-radius: 5px;
 `;
 
@@ -50,15 +50,10 @@ export const Itemlist = styled.li`
   cursor: pointer;
   padding: 0.5rem 0.5rem;
 
-  :hover {
-    background-color: ${({ theme }) => theme.body};
-  }
+  background-color: ${({ theme, active }) => active == true && theme.body};
 
   &:hover ${Toggle} {
     cursor: pointer;
-    color: ${({ theme }) => theme.texto};
-
-    background-color: ${({ theme }) => theme.botao};
   }
 `;
 

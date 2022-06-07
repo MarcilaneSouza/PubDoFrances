@@ -1,24 +1,17 @@
-import React from "react";
-import {
-  MenuLateral,
-  Navlist,
-  Itemlist,
-  Toggle,
-  ReferenceToggle,
-} from "./StyledProdutos";
+import { MenuLateral, Navlist, Itemlist, Toggle } from "./StyledProdutos";
 import { FiHome, FiSettings, FiMessageSquare } from "react-icons/fi";
 
-const MenuLateralProdutos = () => {
+const MenuLateralProdutos = ({ name }) => {
   return (
     <MenuLateral>
       <Navlist>
-        <Itemlist>
-          <Toggle htmlFor="tab1">
+        <Itemlist active={name == "tab1"}>
+          <Toggle active={name == "tab1"} htmlFor="tab1">
             <FiHome />
           </Toggle>
         </Itemlist>
-        <Itemlist>
-          <Toggle htmlFor="tab2">
+        <Itemlist active={name == "tab2"}>
+          <Toggle active={name == "tab2"} htmlFor="tab2">
             <FiSettings />
           </Toggle>
         </Itemlist>
