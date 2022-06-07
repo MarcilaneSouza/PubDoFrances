@@ -61,6 +61,7 @@ export const N = styled.h2`
 export const Imagem = styled.img`
   width: 175px;
   justify-content: center;
-
   border-radius: 80px 80px 80px 80px;
+
+ 
 `;

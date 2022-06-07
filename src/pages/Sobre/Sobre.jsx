@@ -2,6 +2,8 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import BoxApresentacao from "../../components/boxApresentação/BoxApresentacao";
 import { ContainerSection } from "../../components/container/ContainerStyled";
+import Sobrepub from "../../components/SectionPub/sobrepub";
+
 
 const Sobre = () => {
   return (
@@ -14,6 +16,7 @@ const Sobre = () => {
         texto={"A história do PUB é também a história da cidade"}
       />
       <ContainerSection></ContainerSection>
+      <Sobrepub/>
     </>
   );
 };
