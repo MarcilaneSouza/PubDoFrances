@@ -6,7 +6,7 @@ export const lista = [
   },
   {
     nome: "Diguin Tenebroso",
-    data: "Terça e Quinta das 19h às 22h",
+    data: "Segunda e Quinta das 19h às 22h",
     image: "/assets/images/artistas/rodrigo.png",
   },
   {

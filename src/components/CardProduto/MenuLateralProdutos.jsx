@@ -1,5 +1,11 @@
 import React from "react";
-import { MenuLateral, Navlist, Itemlist, Icons } from "./StyledProdutos";
+import {
+  MenuLateral,
+  Navlist,
+  Itemlist,
+  Toggle,
+  ReferenceToggle,
+} from "./StyledProdutos";
 import { FiHome, FiSettings, FiMessageSquare } from "react-icons/fi";
 
 const MenuLateralProdutos = () => {
@@ -7,19 +13,19 @@ const MenuLateralProdutos = () => {
     <MenuLateral>
       <Navlist>
         <Itemlist>
-          <Icons>
+          <Toggle htmlFor="tab1">
             <FiHome />
-          </Icons>
+          </Toggle>
         </Itemlist>
         <Itemlist>
-          <Icons>
+          <Toggle htmlFor="tab2">
             <FiSettings />
-          </Icons>
+          </Toggle>
         </Itemlist>
         <Itemlist>
-          <Icons>
+          <Toggle>
             <FiMessageSquare />
-          </Icons>
+          </Toggle>
         </Itemlist>
       </Navlist>
     </MenuLateral>

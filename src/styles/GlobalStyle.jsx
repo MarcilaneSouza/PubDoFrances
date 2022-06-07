@@ -75,4 +75,6 @@ body {
   ::-webkit-scrollbar-thumb:hover {
 	background: ${({ theme }) => theme.inside};
   }
+
+ 
 `;
