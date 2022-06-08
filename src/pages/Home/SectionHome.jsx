@@ -1,8 +1,21 @@
 import React from "react";
 import BoxApresentacao from "../../components/boxApresentação/BoxApresentacao";
-import { ContainerSection, H, Li, P, Ol, A, Span } from "../../components/container/ContainerStyled";
+import {
+  ContainerSection,
+  H,
+  Li,
+  P,
+  Ol,
+  A,
+  Span,
+} from "../../components/container/ContainerStyled";
 import { Helmet } from "react-helmet";
+import CopoBeer from "./Copo.jsx";
 import Sobre from "../Sobre/Sobre.jsx";
+import Musica from "./musica";
+import Franca from './Franca.jsx';
+import Petiscos from "./Petiscos";
+import Acessibilidade from "./Acessibilidade";
 const Home = () => {
   return (
     <>
@@ -14,7 +27,20 @@ const Home = () => {
         texto={"Drinks e Lanches únicos!"}
       />
       <ContainerSection>
-        <H>5 Curiosodades sobre PUBs:</H>
+        <CopoBeer />
+        <Musica />
+        <Franca />
+        <Petiscos />
+        <Acessibilidade />
+      </ContainerSection>
+    </>
+  );
+};
+
+export default Home;
+
+{
+  /* <H>5 Curiosodades sobre PUBs:</H>
         <Ol type="I">
           <Li>
             <Span>I -</Span> Os primeiros protótipos de pubs surgiram cerca de 2 mil anos
@@ -51,10 +77,5 @@ const Home = () => {
             Ficou interessado sobre PUB Do Francês?
             <A href={{ Sobre }}> Clique Aqui</A> e saiba mais sobre o melhor PUB da ponte RIO-SP!
           </P>
-        </Ol>
-      </ContainerSection>
-    </>
-  );
-};
-
-export default Home;
+        </Ol> */
+}

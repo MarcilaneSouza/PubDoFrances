@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const ContainerSection = styled.section`
   display: flex;
   flex-direction: column;
-  justify-content:space-between;
   box-sizing: border-box;
   width: 100%;
   padding: 1rem 4rem;
