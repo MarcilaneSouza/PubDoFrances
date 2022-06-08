@@ -8,9 +8,9 @@ const Franca = () => {
         <S.Frances />
         <S.DivText>
           <S.P>
-            Oferecemos um ambiente totalmente personalizado que
-            você vai presenciar. Nas noites de Quarta-Feira temos um happy Hour
-            com comidas e drinks à moda Francesa.
+            Oferecemos um ambiente totalmente personalizado, trazendo uma
+            experiencia unica de diversão. Nas noites de Quarta-Feira temos um
+            happy Hour com comidas e drinks à moda Francesa.
           </S.P>
         </S.DivText>
       </S.DivOne>
