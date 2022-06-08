@@ -22,7 +22,6 @@ display: flex;
 width: 45rem;
 align-items: center;
 padding: 0rem 4rem 0rem 4rem;
-/* border: 1px green solid; */
 
 @media(max-width:934px){
 padding: 0rem 10rem 0rem 0rem;
@@ -44,6 +43,7 @@ text-align: center;
 export const Beeer = styled.div`
 background-image:url(${Beer}); 
 background-repeat: no-repeat;
+background-color:#1F1D2B;
 width: 8rem;
 height: 14em;
 box-shadow: 0em 0em 2em #EA7C69;
@@ -64,6 +64,7 @@ background-position-x: -16px ;
 background-position-y: 13px;
 background-size: 158px;
 background-repeat: no-repeat;
+background-color:#1F1D2B;
 width: 8rem;
 height: 14em;
 box-shadow: 0em 0em 3em #EA7C69;
@@ -80,6 +81,7 @@ background-repeat: no-repeat;
 background-position-x: -25px ;
 background-position-y: 13px;
 background-size: 205px;
+background-color:#1F1D2B;
 width: 8rem;
 height: 14em;
 box-shadow: 0em 0em 3em #EA7C69;
@@ -96,6 +98,7 @@ background-position-x: -15px ;
 background-position-y: 22px;
 background-size: 168px;
 background-repeat: no-repeat;
+background-color:#1F1D2B;
 width: 8rem;
 height: 14em;
 box-shadow: 0em 0em 3em #EA7C69;
@@ -112,6 +115,7 @@ background-repeat: no-repeat;
 background-position-x: -24px ;
 background-position-y: 13px;
 background-size: 167px;
+background-color:#1F1D2B;
 width: 8rem;
 height: 14em;
 box-shadow: 0em 0em 3em #EA7C69;
@@ -124,11 +128,13 @@ border-radius: 10px 10px 70px 70px;
 
 export const H = styled.h1`
 align-self: center;
-padding-bottom: 1rem;
-font-size: 29px;
+padding-bottom: 1.5rem;
+font-size: 32px;
+border-bottom: 1px solid white;
 `;
 
 export const P = styled.p`
+font-family: bold;
 font-size: 20px;
 padding: 1rem ;
 border:outset 1px grey;
