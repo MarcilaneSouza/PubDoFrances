@@ -10,7 +10,7 @@ const CopoBeer = () => {
         <S.Beeer />
         <S.DivText>
           <S.P>
-            Temos a melhor e maior variedades de cerveja: Artesanais, Importadas
+            Temos a melhor e maior variedade de cerveja: Artesanais, Importadas
             e Nacionais com aquele MALTE inesquecível! 
           </S.P>
         </S.DivText>

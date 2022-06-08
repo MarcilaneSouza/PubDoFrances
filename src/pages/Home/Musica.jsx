@@ -6,7 +6,7 @@ const Musica = () => {
     <S.DivOne>
       <S.DivText>
         <S.P>
-          O melhor acervo músical para você e seus amigos curtirem a semana
+          O melhor acervo musical para você e seus amigos curtirem a semana
           naquele estilo. Na Quinta-Feira temos a noite do Vinil, traga o seu e
           faça a festa.
         </S.P>

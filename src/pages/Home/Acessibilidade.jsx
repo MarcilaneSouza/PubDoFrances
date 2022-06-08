@@ -7,7 +7,7 @@ const Acessibilidade = () => {
       <S.Cadeirante />
       <S.DivText>
         <S.P>
-          E pensado em todos, adequamos 100% da nossa estrura para receber
+          E pensado em todos, adequamos 100% da nossa estrutura para receber
           qualquer pessoa em nosso pub, seja funcionario ou amigo cliente.
           Incentivamos um mundo mais acessivel a todos! Onde a unica preocupação
           de cada um, é não deixar o copo ficar vazio!

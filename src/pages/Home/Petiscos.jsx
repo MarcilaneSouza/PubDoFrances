@@ -7,8 +7,8 @@ const Petiscos = () => {
       <S.DivOne>
         <S.DivText>
           <S.P>
-            A cozinha mais limpa e crativa está te esperando para vim provar nossos
-            lanches e petiscos, feito com todo carinho do nosso
+            A cozinha mais criativa está te esperando para vir provar nossos
+            lanches e petiscos, feitos com todo carinho do nosso
             Chefe direto de Paris! HMMMMM CHEGA MANTEIGA
             DERRETE!
           </S.P>
