@@ -142,12 +142,12 @@ box-shadow: 0em 0em 10px #EA7C69;
 border-radius: 10px 10px 30px 10px;
 
 @media(max-width:934px){
-margin:0;
-padding: 0;
-font-size: 0.9rem;
+font-size: 20px;
 }
 
-@media(max-width:645px){
+
+@media(max-width:634px){
+font-size: 16px;
 }
 `;
 

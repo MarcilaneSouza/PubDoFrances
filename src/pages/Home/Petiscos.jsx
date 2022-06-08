@@ -9,7 +9,8 @@ const Petiscos = () => {
           <S.P>
             A cozinha mais limpa e crativa está te esperando para vim provar nossos
             lanches e petiscos, feito com todo carinho do nosso
-            Chefe direto de Paris!
+            Chefe direto de Paris! HMMMMM CHEGA MANTEIGA
+            DERRETE!
           </S.P>
         </S.DivText>
         <S.Petiscoss />

@@ -11,8 +11,7 @@ const CopoBeer = () => {
         <S.DivText>
           <S.P>
             Temos a melhor e maior variedades de cerveja: Artesanais, Importadas
-            e Nacionais com aquele MALTE inesquecível! HMMMMM CHEGA MANTEIGA
-            DERRETE!
+            e Nacionais com aquele MALTE inesquecível! 
           </S.P>
         </S.DivText>
       </S.DivOne>
