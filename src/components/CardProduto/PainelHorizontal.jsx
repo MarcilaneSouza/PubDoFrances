@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Configuracao from "../configuracao/SectionConfiguracao";
 import SectionProdutos from "./SectionProdutos";
 import { ContainerSlide, ReferenceToggle, Slide } from "./StyledProdutos";
 
@@ -27,7 +28,9 @@ const PainelHorizontal = () => {
         <Slide right={target.name == "tab1" && target.checked && "0"}>
           <SectionProdutos />
         </Slide>
-        <Slide right={target.name == "tab2" && target.checked && "0"}></Slide>
+        <Slide right={target.name == "tab2" && target.checked && "0"}>
+          <Configuracao />
+        </Slide>
       </ContainerSlide>
     </>
   );

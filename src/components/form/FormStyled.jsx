@@ -2,11 +2,10 @@ import styled from "styled-components";
 
 export const FormContainer = styled.form`
   display: flex;
+  gap: 0.4rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  margin: 0 auto;
 `;
 export const Fiedset = styled.fieldset`
   width: 100%;
@@ -18,7 +17,7 @@ export const Input = styled.input`
   color: ${({ theme }) => theme.textoSecundario};
   padding: 0.6rem;
   margin: 2px auto;
-  height: 1.6rem;
+  min-height: 1.6rem;
   outline: none;
   border: 2px solid ${({ theme }) => theme.borda};
   border-radius: 5px;
