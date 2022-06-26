@@ -27,10 +27,10 @@ const HeaderProduto = () => {
             <TextoOpcao>Bebidas</TextoOpcao>
           </ItemOpcao>
           <ItemOpcao>
-            <TextoOpcao>teste</TextoOpcao>
+            <TextoOpcao>Drinks</TextoOpcao>
           </ItemOpcao>
           <ItemOpcao>
-            <TextoOpcao>teste</TextoOpcao>
+            <TextoOpcao>Petiscos</TextoOpcao>
           </ItemOpcao>
         </ListaOpcoes>
       </NavProdutos>

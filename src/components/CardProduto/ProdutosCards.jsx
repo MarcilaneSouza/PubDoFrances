@@ -2,19 +2,18 @@ import React from "react";
 import { CardProdutos, DescricaoProduto, ImgProduto } from "./StyledProdutos";
 import { Borda } from "../container/ContainerStyled";
 
-const ProdutosCards = () => {
+const ProdutosCards = (props) => {
+  const {img, id, embalagem, nome, sabor, preco, ml} = props
+
   return (
     <CardProdutos>
-      <ImgProduto
-        src="https://picsum.photos/200/300
-"
-        alt="imagem do produto"
+      <ImgProduto src={img} alt="imagem do produto"
       />
       <Borda />
-      <DescricaoProduto>Cerveja Brahma</DescricaoProduto>
-      <DescricaoProduto>Cerveja Brahma</DescricaoProduto>
-      <DescricaoProduto>Cerveja Brahma</DescricaoProduto>
-      <DescricaoProduto secundary>R$ 30,00</DescricaoProduto>
+      <DescricaoProduto>{nome}</DescricaoProduto>
+      <DescricaoProduto>{sabor}</DescricaoProduto>
+      <DescricaoProduto>{embalagem}</DescricaoProduto>
+      <DescricaoProduto secundary>{preco}</DescricaoProduto>
     </CardProdutos>
   );
 };
