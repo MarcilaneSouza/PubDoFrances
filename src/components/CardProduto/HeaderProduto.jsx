@@ -24,14 +24,9 @@ const HeaderProduto = () => {
       <NavProdutos>
         <ListaOpcoes>
           <ItemOpcao>
-            <TextoOpcao>Bebidas</TextoOpcao>
+            <TextoOpcao>Cardápio</TextoOpcao>
           </ItemOpcao>
-          <ItemOpcao>
-            <TextoOpcao>Drinks</TextoOpcao>
-          </ItemOpcao>
-          <ItemOpcao>
-            <TextoOpcao>Petiscos</TextoOpcao>
-          </ItemOpcao>
+          
         </ListaOpcoes>
       </NavProdutos>
     </CabecalhoProdutos>

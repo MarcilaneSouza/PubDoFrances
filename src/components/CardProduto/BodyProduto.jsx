@@ -18,10 +18,13 @@ const BodyProduto = () => {
       .then((res) => setBebidas(res.bebidas));
   });
 
+ 
+  const [drinks, setDrinks] = useState([]);
+
   useEffect(() => {
-    fetch("https://pubdofrances.herokuapp.com/bebidas")
+    fetch("https://pubdofrances.herokuapp.com/drinks")
       .then((res) => res.json())
-      .then((res) => setBebidas(res.bebidas));
+      .then((res) => setDrinks(res.drinks));
   });
 
   useEffect(() => {
@@ -32,9 +35,9 @@ const BodyProduto = () => {
 
   return (
     <ContainerProdutos>
-      <TituloProdutos>Escolha bebidas</TituloProdutos>
+      <TituloProdutos>Escolha seu pedido</TituloProdutos>
 
-      <h1>Bebidas</h1>
+     
 
       <BoxProdutos>
         {bebidas?.map((item, index) => (
@@ -48,10 +51,23 @@ const BodyProduto = () => {
                 ml={item.ml}
               />
         ))}
+
+         {drinks?.map((item, index) => (
+                <ProdutosCards
+                id={item.id}
+                embalagem={item.ingredientes}
+                nome={item.nome}
+                sabor={item.sabor}
+                preco={item.preco}
+                img={item.image}
+                ml={item.ml}
+              />
+        ))}
         
       </BoxProdutos>
     </ContainerProdutos>
   );
 };
+
 
 export default BodyProduto;
