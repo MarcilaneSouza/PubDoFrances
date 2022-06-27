@@ -1,7 +1,7 @@
 #  PROJETO FINAL MODULO 5 
 
 # PUB-do-frances 🍻
-Projeto final do módulo 5 da Resilia. Consistem em criar uma landing page utilizando a biblioteca React e consumir a api criada no módulo anterior.
+Projeto final do módulo 5 da Resilia. Consistem em criar uma landing page utilizando a biblioteca React e consumir a api criada no módulo anterior..
 
 ## TECNOLOGIAS E FERRAMENTAS 💻
 * JavaScript 
