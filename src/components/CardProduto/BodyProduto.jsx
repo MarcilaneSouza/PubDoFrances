@@ -27,12 +27,12 @@ const BodyProduto = () => {
       .then((res) => setDrinks(res.drinks));
   });
 
-  useEffect(() => {
-    fetch("https://pubdofrances.herokuapp.com/bebidas")
-      .then((res) => res.json())
-      .then((res) => setBebidas(res.bebidas));
-  });
+ 
 
+  
+
+
+ 
   return (
     <ContainerProdutos>
       <TituloProdutos>Escolha seu pedido</TituloProdutos>
@@ -60,9 +60,15 @@ const BodyProduto = () => {
                 sabor={item.sabor}
                 preco={item.preco}
                 img={item.image}
-                ml={item.ml}
+                ml={item.ingredientes}
               />
         ))}
+
+
+
+
+  
+
         
       </BoxProdutos>
     </ContainerProdutos>
