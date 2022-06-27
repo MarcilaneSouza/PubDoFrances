@@ -65,11 +65,19 @@ const BodyProduto = () => {
         ))}
 
 
+{petiscos?.map((item, index) => (
+                <ProdutosCards
+                id={item.id}
+                embalagem={item.ingredientes}
+                nome={item.nome}
+                sabor={item.sabor}
+                preco={item.preco}
+                img={item.image}
+                ml={item.ingredientes}
+              />
+        ))}
 
 
-  
-
-        
       </BoxProdutos>
     </ContainerProdutos>
   );
