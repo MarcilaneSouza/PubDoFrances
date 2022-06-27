@@ -27,10 +27,12 @@ const BodyProduto = () => {
       .then((res) => setDrinks(res.drinks));
   });
 
+  const [petiscos, setPetiscos] = useState([]);
+
   useEffect(() => {
-    fetch("https://pubdofrances.herokuapp.com/bebidas")
+    fetch("https://pubdofrances.herokuapp.com/petiscos")
       .then((res) => res.json())
-      .then((res) => setBebidas(res.bebidas));
+      .then((res) => setPetiscos(res.petiscos));
   });
 
   return (
@@ -63,7 +65,19 @@ const BodyProduto = () => {
                 ml={item.ml}
               />
         ))}
-        
+
+{petiscos?.map((item, index) => (
+                <ProdutosCards
+                id={item.id}
+                embalagem={item.ingredientes}
+                nome={item.nome}
+                sabor={item.sabor}
+                preco={item.preco}
+                img={item.image}
+                ml={item.ingredientes}
+              />
+        ))}
+
       </BoxProdutos>
     </ContainerProdutos>
   );
