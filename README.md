@@ -20,5 +20,5 @@ Projeto final do módulo 5 da Resilia. Consistem em criar uma landing page utili
 
 <table>
   <tr>
-    <td align="center"><a href=""<img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/91219079?v=4" width="100px;" alt=""/><br /><sub><b>Marcilane Souza</b></sub></a><br /><a href="https://www.linkedin.com/in/marcilane-souza-9427bb69/" title="">👩‍🎓</a></td>
-    <td align="center"><a href=""<img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/96213225?v=4" width="100px;" alt=""/><br /><sub><b>Karla Valeriano</b></sub></a><br /><a href="https://www.linkedin.com/in/karla-valeriano-b01a351b8/" title=""> 👩‍🎓 </a></td>
+    <td align="center"><a href=""<img style="border-radius: 50%;" src="public/assets/images/contatos/marcilane.jpg" width="100px;" alt=""/><br /><sub><b>Marcilane Souza</b></sub></a><br /><a href="https://www.linkedin.com/in/marcilane-souza-9427bb69/" title="">👩‍🎓</a></td>
+    <td align="center"><a href=""<img style="border-radius: 50%;" src="public/assets/images/contatos/karla.jpg" width="100px;" alt=""/><br /><sub><b>Karla Valeriano</b></sub></a><br /><a href="https://www.linkedin.com/in/karla-valeriano-b01a351b8/" title=""> 👩‍🎓 </a></td>
